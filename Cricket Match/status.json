@@ -1,0 +1,203 @@
+{
+  "matchDetails": {
+    "format": "T5",
+    "toss": "Team A",
+    "toss_decision": "Bat first",
+    "teams": [
+      {
+        "name": "Team A",
+        "players": [
+          {
+            "name": "Batsman A1",
+            "runs": 20,
+            "balls": 15,
+            "fours": 3,
+            "sixes": 1,
+            "dismissal": {
+              "type": "Caught",
+              "fielder": "Fielder A",
+              "bowler": "Bowler A"
+            }
+          },
+          {
+            "name": "Batsman A2",
+            "runs": 15,
+            "balls": 10,
+            "fours": 2,
+            "sixes": 0,
+            "dismissal": {
+              "type": "Run Out",
+              "fielder": "Fielder B",
+              "bowler": "Bowler B"
+            }
+          },
+          {
+            "name": "Batsman A3",
+            "runs": 10,
+            "balls": 8,
+            "fours": 1,
+            "sixes": 0,
+            "dismissal": {
+              "type": "Bowled",
+              "fielder": null,
+              "bowler": "Bowler C"
+            }
+          }
+        ],
+        "bowlers": [
+          {
+            "name": "Bowler A",
+            "overs": 2,
+            "runsConceded": 18,
+            "wickets": 1
+          },
+          {
+            "name": "Bowler B",
+            "overs": 1,
+            "runsConceded": 10,
+            "wickets": 0
+          },
+          {
+            "name": "Bowler C",
+            "overs": 2,
+            "runsConceded": 15,
+            "wickets": 1
+          }
+        ]
+      },
+      {
+        "name": "Team B",
+        "players": [
+          {
+            "name": "Batsman B1",
+            "runs": 25,
+            "balls": 14,
+            "fours": 4,
+            "sixes": 1,
+            "dismissal": {
+              "type": "Caught",
+              "fielder": "Fielder D",
+              "bowler": "Bowler D"
+            }
+          },
+          {
+            "name": "Batsman B2",
+            "runs": 18,
+            "balls": 12,
+            "fours": 2,
+            "sixes": 0,
+            "dismissal": {
+              "type": "LBW",
+              "fielder": null,
+              "bowler": "Bowler E"
+            }
+          },
+          {
+            "name": "Batsman B3",
+            "runs": 12,
+            "balls": 9,
+            "fours": 1,
+            "sixes": 0,
+            "dismissal": {
+              "type": "Stumped",
+              "fielder": "Fielder F",
+              "bowler": "Bowler G"
+            }
+          }
+        ],
+        "bowlers": [
+          {
+            "name": "Bowler D",
+            "overs": 2,
+            "runsConceded": 22,
+            "wickets": 1
+          },
+          {
+            "name": "Bowler E",
+            "overs": 1,
+            "runsConceded": 12,
+            "wickets": 1
+          },
+          {
+            "name": "Bowler G",
+            "overs": 1,
+            "runsConceded": 10,
+            "wickets": 0
+          }
+        ]
+      }
+    ],
+    "fallOfWickets": [
+      {
+        "team": "Team A",
+        "wickets": [
+          {
+            "player": "Batsman A1",
+            "score": 20,
+            "overs": 3.1,
+            "dismissal": {
+              "type": "Caught",
+              "fielder": "Fielder A",
+              "bowler": "Bowler A"
+            }
+          },
+          {
+            "player": "Batsman A2",
+            "score": 35,
+            "overs": 4.2,
+            "dismissal": {
+              "type": "Run Out",
+              "fielder": "Fielder B",
+              "bowler": "Bowler B"
+            }
+          },
+          {
+            "player": "Batsman A3",
+            "score": 45,
+            "overs": 5,
+            "dismissal": {
+              "type": "Bowled",
+              "fielder": null,
+              "bowler": "Bowler C"
+            }
+          }
+        ]
+      },
+      {
+        "team": "Team B",
+        "wickets": [
+          {
+            "player": "Batsman B1",
+            "score": 25,
+            "overs": 3.5,
+            "dismissal": {
+              "type": "Caught",
+              "fielder": "Fielder D",
+              "bowler": "Bowler D"
+            }
+          },
+          {
+            "player": "Batsman B2",
+            "score": 43,
+            "overs": 4.4,
+            "dismissal": {
+              "type": "LBW",
+              "fielder": null,
+              "bowler": "Bowler E"
+            }
+          },
+          {
+            "player": "Batsman B3",
+            "score": 55,
+            "overs": 5,
+            "dismissal": {
+              "type": "Stumped",
+              "fielder": "Fielder F",
+              "bowler": "Bowler G"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
